@@ -16,3 +16,5 @@ if num>1:
         i+=1
     else:
         print(num,"is a prime number")
+else:
+    print("numbers less than or equal to 1 are not prime numbers")
