@@ -1,9 +1,7 @@
 '''Program to create a list of 20 number given by the user. 
 ask the user to input any other number .
 Remove all the duplicate eneteries of this number from the list'''
-''' LOGIC: 1. Taking number enteries from the user
-2. taking input of another number
-3. making another  '''
+
 numbers = []
 for i in range(5):
     num = int(input("Enter a number: "))
