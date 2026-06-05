@@ -35,22 +35,22 @@ elif percentage>=40:
 else:
     grade='F'
 #printing failed subjects   
-failed_subjects=[]
+failed_subjects=0
 if sub1<40:
-    failed_subjects.append("Subject 1")
+    failed_subjects+=1
 if sub2<40:
-    failed_subjects.append("Subject 2")
+    failed_subjects+=1
 if sub3<40:
-    failed_subjects.append("Subject 3")
+    failed_subjects+=1
 if sub4<40:
-    failed_subjects.append("Subject 4")
+    failed_subjects+=1
 if sub5<40:
-    failed_subjects.append("Subject 5")
+    failed_subjects+=1
 #Printing the results
 print("Total Marks:",total)
 print("Percentage:",percentage,"%")
 print("Grade:",grade)
 if failed_subjects:
-    print("Failed Subjects:",", ".join(failed_subjects))
+    print("Failed Subjects:",failed_subjects)
 else:
     print("Congratulations! You passed all subjects.")
