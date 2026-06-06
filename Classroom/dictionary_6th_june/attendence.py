@@ -7,14 +7,14 @@ Display the roll number of students who are Present'''
 attendance = {}
 
 # Input attendance for 30 students
-for i in range(30):
+for i in range(5):
     roll_no = int(input("Enter Roll Number: "))
     
-    status = input("Enter Attendance (Present/Absent): ").strip().capitalize()
+    status = input("Enter Attendance (Present/Absent): ")
     
     while status not in ["Present", "Absent"]:
         print("Invalid input! Please enter Present or Absent.")
-        status = input("Enter Attendance (Present/Absent): ").strip().capitalize()
+        status = input("Enter Attendance (Present/Absent): ")
     
     attendance[roll_no] = status
 
