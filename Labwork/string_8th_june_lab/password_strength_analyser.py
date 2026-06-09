@@ -20,7 +20,7 @@ Additionally:
 
 # Taking password as input from the user
 password = input("Enter Password: ")
-
+#check the password is empty
 # --------------------------------------------------
 # Initializing counters and lists
 # --------------------------------------------------
@@ -28,7 +28,7 @@ uppercase_count = 0
 lowercase_count = 0
 digit_count = 0
 special_count = 0
-
+#first check whether digit and special ch exist or not  
 digit_list = []
 special_list = []
 
