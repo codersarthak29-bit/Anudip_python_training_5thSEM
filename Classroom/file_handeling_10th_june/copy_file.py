@@ -5,13 +5,13 @@
 source = open("text.txt", "r")
 
 # Read all content
-data = source.read()
+data = source.readlines()
 
 # Open destination file in write mode
 destination = open("copy.txt", "w")
 
 # Write content into destination file
-destination.write(data)
+destination.writelines(data)
 
 # Close both files
 source.close()
