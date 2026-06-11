@@ -1,0 +1,14 @@
+STUDENT REPORT CARD
+==================================================
+ID	Name	Marks	Grade	Result
+==================================================
+S101	Anuj	92	A+	Pass
+S102	Rahul	76	B	Pass
+S103	Priya	88	A	Pass
+S104	Neha	45	D	Pass
+S105	Amit	58	D	Pass
+S106	Sneha	95	A+	Pass
+S107	Karan	81	A	Pass
+S108	Pooja	73	B	Pass
+S109	Rohit	39	F	Fail
+S110	Anjali	90	A+	Pass
