@@ -1,4 +1,4 @@
-'''Problem 5: Online Shopping Cart Analyzer 
+'''
 Problem Statement 
 The prices of products added to a shopping cart are stored below. 
 Sample Data 
